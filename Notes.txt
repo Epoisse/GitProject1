@@ -34,3 +34,6 @@ show u the files that are present in teh staging area.
 2. git rm --cached filename:
 removes the files from the staging area
 
+3. git diff
+shows the difference between the files in the
+
