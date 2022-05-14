@@ -9,4 +9,16 @@ Git status:
 tells the status of repo,
 .untracked files
 .files that are in staging area but not in repo yet
-.it doesn't tell us about
+.it doesn't tell us about files in staging area which
+
+Github:
+for each local repo your must have a unique individual remote repo
+
+1. create a new remote repo
+2.
+3. git remote add origin URL
+4. git branch -M main (naming your branch)
+5. git push -u origin main (first time only, after that just git push)
+
+git remote remove origin
+to remove the connection of local with remote
