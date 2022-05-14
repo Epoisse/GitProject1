@@ -1,0 +1,12 @@
+3-stage architecture:
+
+1. Working directory: all the files that you have in your project
+2. Staging area: An area between repo and working directory, here the snapshot of all the files
+are moved before actually moving them to repo
+3. Repo: Our actual storage area
+
+Git status:
+tells the status of repo,
+.untracked files
+.files that are in staging area but not in repo yet
+.it doesn't tell us about
