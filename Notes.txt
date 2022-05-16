@@ -1,3 +1,5 @@
+
+----------------Class 03--------------------
 3-stage architecture:
 
 1. Working directory: all the files that you have in your project
@@ -35,5 +37,25 @@ show u the files that are present in teh staging area.
 removes the files from the staging area
 
 3. git diff
-shows the difference between the files in the
+shows the difference between the files in working directory and the staging area
 
+4. git diff --cached
+shows the difference between the files in repo and the staging area
+
+5. git restore .
+to move your files from staging area to working directory
+
+gitignore
+
+git clone url
+
+git fetch
+tells u if there is any updates in the project
+
+git pull
+get the updates
+
+----------------Class 04--------------------
+Stashing:
+1. places the changes in your files to the stashing area
+2. the working directory now contains the code from the last commit in the repo
